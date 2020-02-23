@@ -15,7 +15,7 @@ $( document ).ready(function() {
     $("#advanced-flight-refundable-label-flp").after(newHtml);
     $("#advanced-flight-wheelchair").change(function() {
         if(this.checked) {
-            var myWindow = window.open("https://flyingwheelchair.com/?checkbox=true", "_blank", "toolbar=no,location=no,menubar=no,scrollbars=yes");
+            var myWindow = window.open("http://flyingwheelchair.com/?checkbox=true", "_blank", "toolbar=no,location=no,menubar=no,scrollbars=yes");
         }
     });
 });
